@@ -1,0 +1,13 @@
+
+Units::Base contains some low-level string parsing and conversion routines
+that can be used by other modules to convert between units of measurement
+(such as millimeters to feet or points to picas or even millimeters to
+sixteenths-of-an-inch).
+
+Among the nicities (I think so anyway...) of this unit are synonyms and
+abbreviations for units, and the ability to use multipliers (so that
+you need only define a unit once but specify conversions based on
+"hundreths of an inch" etc.
+
+
+
